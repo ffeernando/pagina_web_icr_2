@@ -1,0 +1,69 @@
+/* LoginPage.css */
+.login-container {
+    min-height: 100vh;
+  }
+  
+  .login-image-container {
+    margin-bottom: 0rem;
+  }
+  
+  .login-logo {
+    max-width: 200px;
+  }
+  
+  .login-content {
+    display: flex;
+    align-items: start;
+  }
+  
+  .login-form {
+    width: 100%;
+    max-width: 500px; /* Hacer el contenedor más ancho */
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  .login-form h2 {
+    font-size: 20px;
+  }
+  
+  .login-btn {
+    width: 150px; /* Botón de login más ancho */
+  }
+  
+  .forgot-password {
+    margin-left: 1rem;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  .qr-section {
+    margin-top: 0rem;
+  }
+  
+  .footer {
+    margin-top: 0;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  
+  .small-text-links a {
+    color: #6c757d;
+    margin: 0 0.5rem;
+    text-decoration: none;
+  }
+  
+  .small-text-links a:hover {
+    text-decoration: underline;
+  }
+  
